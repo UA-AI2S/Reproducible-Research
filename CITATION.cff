@@ -11,11 +11,3 @@ version: "1.0.4"
 doi: "10.5281/zenodo.1234567"
 date-released: "2026-10-03"
 url: "https://github.com/username/Reproducible-Research"
-
-Key Fields Explained
-• cff-version: The version of the Citation File Format schema you are using (currently 1.2.0 is standard).
-• message: A short sentence instructing users to cite your software.
-• authors: A list of the creators. You can include orcid links for academic tracking.
-• doi: A Digital Object Identifier (commonly generated via archiving tools like Zenodo).
-• date-released: The release date of this specific version in YYYY-MM-DD format.
-
