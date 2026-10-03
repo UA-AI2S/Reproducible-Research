@@ -1,0 +1,45 @@
+# ==============================================================================
+# CONFIGURATION: AI Models & Endpoint Specifications for Reproducible Research
+# ==============================================================================
+metadata:
+  experiment_version: "v2.1.0"
+  last_validated: "2026-10-03"
+
+# --- OPEN SOURCE MODELS (Hugging Face Tracked) ---
+# Hardcoded revision hashes ensure changes in the model weights don't break reproducibility.
+huggingface_models:
+  baseline_llm:
+    model_id: "meta-llama/Llama-3.1-8B-Instruct"
+    revision_hash: "0e9e39d6bdeed31572c6cf5e3810d2c3df44bd27" # Exact Git commit SHA
+    local_cache_dir: "./models/cache/llama"
+    default_parameters:
+      temperature: 0.0          # Deterministic sampling for reproducibility
+      max_new_tokens: 512
+      top_p: 1.0
+      repetition_penalty: 1.1
+
+  embedding_engine:
+    model_id: "BAAI/bge-large-en-v1.5"
+    revision_hash: "50ae1a84f3cc61ec908c6fa2f1c0451a9a8be881"
+    pooling_strategy: "cls"
+
+# --- CLOUD HOSTED / PROPRIETARY MODELS (API Managed) ---
+# Pinning specific snapshot dates instead of "latest" generic tags is mandatory.
+cloud_provider_models:
+  primary_evaluator:
+    model_id: "gpt-4o-2024-08-06"     # Pinned dated snapshot, NOT "gpt-4o"
+    provider: "openai"
+    endpoint_url: "https://openai.com"
+    default_parameters:
+      temperature: 0.0
+      seed: 42                       # Explicit seed for deterministic API outputs
+      max_tokens: 1024
+
+  enterprise_classifier:
+    model_id: "anthropic.claude-3-5-sonnet-20241022-v2:0"
+    provider: "aws_bedrock"
+    region: "us-west-2"               # Explicit region to guarantee identical data residency/hardware specs
+    endpoint_url: "https://amazonaws.com"
+    default_parameters:
+      temperature: 0.0
+      top_k: 0
