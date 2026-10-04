@@ -27,13 +27,13 @@ No matter your wording, major publishers (like [Wiley](https://www.wiley.com/) a
 
 Are you currently writing an AI disclosure statement? If so, tell me what specific AI tool you used and what task it performed, and I can draft the exact disclosure text for your paper.
 
-[1] [https://pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12353913/)
-[2] [https://casrai.org](https://casrai.org/guides/ai-disclosure-statement-examples)
-[3] [https://www.editage.com](https://www.editage.com/blog/how-to-write-an-ai-disclosure-statement-examples-and-format-for-journal-articles-and-dissertations/)
-[4] [https://www.wiley.com](https://www.wiley.com/en-us/publishing/article/ai-guidelines)
-[5] [https://www.youtube.com](https://www.youtube.com/watch?v=LjCU2OqD2So&t=51)
-[6] [https://www.cdc.gov](https://www.cdc.gov/ai/resources/considerations-for-generative-ai-use-in-scientific-work.html)
-[7] [https://hazards.colorado.edu](https://hazards.colorado.edu/resources/disclosure-instructions-ai-use)
-[8] [https://www.youtube.com](https://www.youtube.com/watch?v=LjCU2OqD2So&t=51)
-[9] [https://www.usgs.gov](https://www.usgs.gov/office-of-science-quality-and-integrity/example-ai-disclosure-statements-usgs-scientific)
-[10] [https://www.youtube.com](https://www.youtube.com/watch?v=AoSx3ylqwvY&t=377)
+[1] [https://pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12353913/)  <br>
+[2] [https://casrai.org](https://casrai.org/guides/ai-disclosure-statement-examples) <br>
+[3] [https://www.editage.com](https://www.editage.com/blog/how-to-write-an-ai-disclosure-statement-examples-and-format-for-journal-articles-and-dissertations/) <br>
+[4] [https://www.wiley.com](https://www.wiley.com/en-us/publishing/article/ai-guidelines) <br>
+[5] [https://www.youtube.com](https://www.youtube.com/watch?v=LjCU2OqD2So&t=51) <br>
+[6] [https://www.cdc.gov](https://www.cdc.gov/ai/resources/considerations-for-generative-ai-use-in-scientific-work.html) <br>
+[7] [https://hazards.colorado.edu](https://hazards.colorado.edu/resources/disclosure-instructions-ai-use) <br>
+[8] [https://www.youtube.com](https://www.youtube.com/watch?v=LjCU2OqD2So&t=51) <br>
+[9] [https://www.usgs.gov](https://www.usgs.gov/office-of-science-quality-and-integrity/example-ai-disclosure-statements-usgs-scientific) <br>
+[10] [https://www.youtube.com](https://www.youtube.com/watch?v=AoSx3ylqwvY&t=377) <br>
